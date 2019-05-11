@@ -8,11 +8,14 @@ export default class Home extends React.Component {
             <div className="dashboard">
                 <div className="wrapper">
                     <div className="box">
-                        <div className="recentEvent">Publicado recentemente</div>
+                        
                         <div className="recentEvent-container">
+                        
                             <div className="lastEvent">
+                            
                                 <div className="recentEventInfo">
-                                    <div><img className="events-Home-Image" src="http://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2019/01/Belle-Trio.jpg"></img></div>
+                                <div className="recentEvent">Publicado recentemente</div>
+                                    <div className="events-Home-Image"><img className="events-Home-Img" src="http://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2019/01/Belle-Trio.jpg"></img></div>
                                     <div className="event-title">BAILE DO PRETO E BRANCO</div>
                                     <div className="event-date">10/08/2019</div>
                                 </div>
@@ -20,10 +23,11 @@ export default class Home extends React.Component {
                             <div className="divider-vertical"></div>
                             <div className="feedBack-info">
                                 <div className="feedBack-title">Feedback</div>
-                                <div className="rating">Alcance:    10.000</div>
-                                <div className="retention">Retenção:    5.652</div>
-                                <div className="share-number">Compartilhamentos:    1.200</div>
-                                <div className="likes-number">Curtidas: 250</div>
+                                <h4 className="rating">Alcance:    10.000</h4>
+                                <h4 className="retention">Retenção:    5.652</h4>
+                                <h4 className="share-number">Compartilhamentos:    1.200</h4>
+                                <h4 className="likes-number">Curtidas: 250</h4>
+                                <h4 className="feedBack-time">Publicado em 10/07 às 10:30</h4>
                             </div>
                         </div>
                     </div>

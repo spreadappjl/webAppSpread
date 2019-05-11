@@ -1,0 +1,70 @@
+.event-details-page {
+    background: #f9f9f9;
+    border-top: solid #f1f1f1 56px;
+    position: relative;
+    float: right;
+    height: calc(100vh - 70px);
+    overflow: auto;
+    width: 82vw;
+}
+
+.event-details-page .event-details-container {
+    height: 100%;
+    width: calc(82vw - 70px);
+}
+
+.event-details-page .event-details-info-graph {
+    display: flex;
+    width:100%;
+    background: #f1f1f1;
+    height: 63%;
+    margin: 45px 35px 0px 35px;
+}
+
+.event-details-page .event-details-info-graph .event-details-img {
+    width: 61%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.event-details-container .event-details-description-container{
+    background: #f1f1f1;
+    margin: 0px 35px;
+    width: 100%;
+}
+
+.event-details-description-container .event-details-title {
+    font-size: 18px;
+    font-weight: 400;
+    width: 500px;
+    padding: 10px 0px 0px 0px;
+    color: #040404;
+    font-family: 'Roboto', arial;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.event-details-description-container .event-details-date {
+    font-size: 18px;
+    font-weight: 400;
+    width: 500px;
+    padding: 0px 0px 15px 0px;
+    color: #040404;
+    font-family: 'Roboto', arial;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.event-details-description-container .event-details-discription {
+    font-size: 14px;
+    font-weight: 400;
+    width: 90%;
+    padding: 0px 0px 15px 0px;
+    color: #040404;
+    font-family: 'Roboto', arial;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+}

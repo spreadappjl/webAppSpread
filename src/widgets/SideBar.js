@@ -7,10 +7,10 @@ export default class SideBar extends React.Component {
     render() {
         return (
             <div className="SideBar">
-                <div className="brandContainer">
-                    <a className="list-group-item"><i className="fa fa-volume-up icon" aria-hidden="true"></i></a>
-                    <div className="brandSpace">Spread</div>
-                </div>
+            <div className="brandContainer">
+                <a className="list-group-item"><i className="fa fa-volume-up icon" aria-hidden="true"></i></a>
+                <div className="brandSpace">Spread</div>
+            </div>
                 <div className="userInfoSpace">
                     <div className="userInfo">
                         <div className="userImgProfile">

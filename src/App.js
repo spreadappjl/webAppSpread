@@ -3,19 +3,19 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import SideBar from './widgets/SideBar';
 import Events from './pages/Events';
+import EventsDetails from './pages/Events-datails';
 
 function App() {
   return (
     <div className="App">
-      
-      
-      <SideBar/>
+      <SideBar />
       <BrowserRouter>
-          <Switch>
+        <Switch>
           <Route exact path="/" component={Home}></Route>
-            <Route exact path="/home" component={Home}></Route>
-            <Route exact path="/events" component={Events}></Route>
-          </Switch>
+          <Route exact path="/home" component={Home}></Route>
+          <Route exact path="/events" component={Events}></Route>
+          <Route exact path="/event-details" component={EventsDetails}></Route>
+        </Switch>
       </BrowserRouter>
     </div>
   );
