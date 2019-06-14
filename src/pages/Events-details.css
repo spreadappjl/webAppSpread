@@ -1,36 +1,38 @@
 .event-details-page {
-    background: #f9f9f9;
-    border-top: solid #f1f1f1 56px;
+    background: #ebecf1;
     position: relative;
     float: right;
-    height: calc(100vh - 70px);
-    overflow: auto;
-    width: 82vw;
+    height: 100vh;
+    overflow: hidden;
+    width: calc(100vw - 260px);
 }
 
 .event-details-page .event-details-container {
-    height: 100%;
+    margin-top:76px;
+    height: 98%;
     width: calc(82vw - 70px);
 }
 
 .event-details-page .event-details-info-graph {
     display: flex;
     width:100%;
-    background: #f1f1f1;
     height: 63%;
-    margin: 45px 35px 0px 35px;
+    margin: 45px 20px 0px 20px;
 }
 
 .event-details-page .event-details-info-graph .event-details-img {
-    width: 61%;
+    width: 65%;
     height: 100%;
     object-fit: cover;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+
 }
 
 .event-details-container .event-details-description-container{
-    background: #f1f1f1;
-    margin: 0px 35px;
-    width: 100%;
+    margin: 0px 20px;
+    width: 65%;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    background: #ffff;
 }
 
 .event-details-description-container .event-details-title {
@@ -39,9 +41,10 @@
     width: 500px;
     padding: 10px 0px 0px 0px;
     color: #040404;
-    font-family: 'Roboto', arial;
+    font-family: 'Roboto', Noto;
     text-overflow: ellipsis;
     word-wrap: break-word;
+    margin: 0px 20px;
     overflow: hidden;
 }
 
@@ -49,9 +52,10 @@
     font-size: 18px;
     font-weight: 400;
     width: 500px;
+    margin: 0px 20px;
     padding: 0px 0px 15px 0px;
     color: #040404;
-    font-family: 'Roboto', arial;
+    font-family: 'Roboto', Noto;
     text-overflow: ellipsis;
     word-wrap: break-word;
     overflow: hidden;
@@ -60,10 +64,11 @@
 .event-details-description-container .event-details-discription {
     font-size: 14px;
     font-weight: 400;
-    width: 90%;
+    width: calc(100% - 20px);
     padding: 0px 0px 15px 0px;
+    margin: 0px 20px;
     color: #040404;
-    font-family: 'Roboto', arial;
+    font-family: 'Roboto', Noto;
     text-overflow: ellipsis;
     word-wrap: break-word;
     overflow: hidden;

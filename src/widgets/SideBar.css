@@ -1,10 +1,14 @@
 .App .SideBar {
-  background: #f9f9f9;
-  width: 18.0vw;
+  background: rgb(50,54,57);
+  width: 260px;
+  z-index: 1;
   height: 100vh;
   overflow: hidden;
   position: fixed;
+  /* box-shadow: #040404, 4px 0px 8px 10px; */
+  /* border-right: 2px solid rgb(241, 241, 241); */
   float: left;
+  text-transform: uppercase;
 }
 
 .App .SideBar .userInfoSpace {
@@ -17,7 +21,23 @@
 
 .list-group-item .icon { 
   font-size: 18px;
-  margin: 0px 24px 0px 24px;
+  margin: 0px 20px 0px 0px;
+  display: flex;
+  align-items: center;
+  float: left;
+}
+
+.fa-chart-bar{
+  font-size: 18px;
+  margin: 0px 20px 0px 0px;
+  display: flex;
+  align-items: center;
+  float: left;
+}
+
+.fa-book{
+  font-size: 18px;
+  margin: 0px 20px 0px 0px;
   display: flex;
   align-items: center;
   float: left;
@@ -25,15 +45,12 @@
 
 .App .SideBar .brandContainer {
   width: 100%;
-  background: #f1f1f1;
   height: 40px;
-  padding: 0px 0px 16px 0px;
+  padding: 0px 0px 10px 0px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  box-shadow: .0px .9px .0px .0px rgba(120, 36, 255, 0.2);
   font-family: 'Roboto', sans-serif;
-  color: rgb(48, 48, 48);
   font-weight: 600;
 }
 
@@ -44,8 +61,8 @@
 
 .App .SideBar .userInfoSpace img {
   border-radius: 50%;
-  width: 56px;
-  height: 56px;
+  width: 47px;
+  height: 47px;
   justify-content: center;
   margin: 0px 0px 15px 0px;
 }
@@ -59,21 +76,26 @@
   width: 100%;
   height: 1px;
   margin: 10px 0px;
-  background: rgb(17, 17, 17, 0.1);
+  background: rgba(218, 218, 218, 0.199);
 }
 
 .App .SideBar .menuList .btn{
   width: 100%;
-  height: 45px;
-  font-size: 14px;
+  height: 36px;
+  padding: 7px 0px 8px 20px;
+  font-size: 11px;
   transition: .05s;
-  font-weight: 600;
-  color: rgb(17, 17, 17,.6);
+  font-weight: 500;
+  color: #f1f1f1;
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  cursor: default;
+  text-decoration: none;
+  font-family: 'Roboto',sans-serif;
 }
 
-.App .SideBar .menuList .btn:hover{
-  background: #e0e0e0;
+.App  .menuList .btn:hover{
+  background: rgb(76, 81, 85);;
   color: rgba(56, 102, 255, 0.932);
 }
