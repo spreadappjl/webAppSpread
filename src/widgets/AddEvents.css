@@ -1,6 +1,10 @@
 .AddEventsShowPainel{
-    width: 100vw;
+    width: 82vw;
     position: fixed;
-    background: blue;
+    background: #fff;
     height: 100vh;
+    top: 46px;
+    z-index: 2;
+    left: 18vw;
+    transition: all 1s;
 }

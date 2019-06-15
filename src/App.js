@@ -5,6 +5,7 @@ import SideBar from './widgets/SideBar';
 import Events from './pages/Events';
 import EventsDetails from './pages/Events-datails';
 import Header from './widgets/Header';
+import UserPerfil from './pages/UserPerfil';
 import '../src/App.css';
 
 function App() {
@@ -16,11 +17,13 @@ function App() {
           <SideBar />
           <main className="main-component">
             <Link to="/"></Link>
+            <Link to="/public-perfil"></Link>
             <Link to="/home"></Link>
             <Link to="/events"></Link>
             <Link to="/events/id"></Link>
             <Route path="/" exact component={Home}></Route>
             <Route path="/home" exact component={Home}></Route>
+            <Route path="/public-perfil" exact component={UserPerfil}></Route>
             <Route path="/events" exact component={Events}></Route>
             <Route path="/events/id" exact component={EventsDetails}></Route>
           </main>

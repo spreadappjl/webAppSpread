@@ -42,13 +42,12 @@ export default class Home extends React.Component {
                             </div>
                         </Link>
                     </div>
+                    <Link to="/public-perfil" className="box">
+                        <Link to="/public-perfil" className="userProfile-Home-Image"></Link>
+                    </Link>
                     <div className="box">
-                        <div className="userProfile-Home-Image"></div>
+                        <div className="Graphics"></div>
                     </div>
-                    <div className="box">
-                        <div className="userProfile-Home-Image"></div>
-                    </div>
-                    <div className="tool-box"></div>
                 </div>
 
             </div>

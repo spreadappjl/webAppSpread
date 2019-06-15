@@ -1,0 +1,11 @@
+.UserPerfilWraper{
+    width: 82vw;
+    height: 100vh;
+    display: flex;
+}
+
+.UserPerfilWraper .UserPerfilHeader{
+    height: 100px;
+    width: 100vw;
+    background: #3d3d3d;
+}

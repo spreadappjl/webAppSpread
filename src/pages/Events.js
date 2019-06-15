@@ -6,7 +6,7 @@ export default class Events extends React.Component {
     constructor() {
         super();
         this.state = {
-            showPainel: true,
+            showPainel: false,
         };
         this.toggle = this.toggle.bind(this);
     }

@@ -5,9 +5,9 @@ export default class AddEvents extends React.Component {
     render() {
         return (
             this.props.showPainel &&
-            <div>
+            <div className="AddEventsShowPainel">
                 <div className="AddEventsShowPainel">
-                    <div>Sacanagem</div>
+                    <div className="showPainelWrapper"></div>
                 </div>
             </div>
         );
