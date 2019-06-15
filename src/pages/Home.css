@@ -1,8 +1,7 @@
 .dashboard {
     background: #ebecf1;
-    width: calc(100vw - 260px);
+    width: calc(100vw - 18vw);
     height: 100%;
-    float: right;
     overflow: auto;
     position: relative;
 }
@@ -29,7 +28,7 @@
     width: 30%;
     display: flex;
     justify-content: space-evenly;
-    position: relative;
+    position: relative;    
     align-content: center;
     height: auto;
     margin: 0px auto;
@@ -71,6 +70,7 @@ h4 {
 .dashboard .box .recentEvent-container {
     width: 100%;
     align-items: center;
+    text-decoration: none;
     justify-items:  center;
     height: 100%;
 }

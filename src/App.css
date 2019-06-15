@@ -1,5 +1,7 @@
 .App .main-component{
-    width: auto;
-    height: auto;
+    width: 82vw;
+    height: 100vh;
+    float: right;
     overflow: auto;
+    z-index: 0;
 }

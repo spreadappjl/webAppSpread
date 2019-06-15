@@ -1,7 +1,7 @@
 .App .SideBar {
   background: rgb(50,54,57);
-  width: 260px;
-  z-index: 1;
+  width: 18vw;
+  z-index: 0;
   height: 100vh;
   overflow: hidden;
   position: fixed;
@@ -97,5 +97,10 @@
 
 .App  .menuList .btn:hover{
   background: rgb(76, 81, 85);;
+  color: rgba(56, 102, 255, 0.932);
+}
+
+.App  .menuList .btn:focus{
+  background: rgb(76, 81, 85);
   color: rgba(56, 102, 255, 0.932);
 }

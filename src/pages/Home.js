@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 import {Line} from 'react-chartjs-2';
-
+import { Link } from 'react-router-dom';
 
 const data = {
     labels: ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AGO", "SET", "OUT", "NOV", "DEC"],
@@ -22,7 +22,6 @@ const data = {
     }],
 };
 
-
 export default class Home extends React.Component {
     render() {
         return (
@@ -32,7 +31,7 @@ export default class Home extends React.Component {
                 </div>
                 <div className="wrapper">
                     <div className="box">
-                        <div className="recentEvent-container">
+                        <Link to="/events" className="recentEvent-container">
                             <div className="lastEvent">
                                 <div className="recentEventInfo">
                                     <div className="recentEvent">Publicado recentemente</div>
@@ -41,7 +40,7 @@ export default class Home extends React.Component {
                                     <div className="event-date">10/08/2019</div>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                     <div className="box">
                         <div className="userProfile-Home-Image"></div>
