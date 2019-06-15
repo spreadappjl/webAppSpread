@@ -1,4 +1,5 @@
 import React from 'react';
+import '../pages/UserPerfil.css'
 
 export default class UserPerfil extends React.Component {
     render() {
@@ -11,9 +12,11 @@ export default class UserPerfil extends React.Component {
                         <div className="cardBody"></div>
                     </div>
                     <div className="UserEdition">
-                        <div className="backgroundImg"></div>
-                        <div className="avatarImg"></div>
-                        <div className="cardBody"></div>
+                        <div className="preview-container">
+                            <div className="backgroundImg"></div>
+                            <div className="avatarImg"></div>
+                            <div className="cardBody"></div>
+                        </div>
                     </div>
                 </div>
             </div>
