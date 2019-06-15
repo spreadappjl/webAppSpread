@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <div>
-          <Header />
+          <Header/>
           <SideBar />
           <main className="main-component">
             <Link to="/"></Link>
