@@ -30,19 +30,30 @@
 
 .UserPerfilWrapper .UserPerfilBody .UserEdition{
     display: flex;
+    margin-top: -70px;
     justify-content: center;
     align-items: center;
     object-fit: cover;
-    height: 88%;
-    width: 29%;
+    height: auto;
+    width: 30vw;
+    border-radius: 3px;
+    /* box-shadow: 0px 4px 20px 0px rgba(80, 80, 80, 0.1); */
+    padding: 15px 15px;
+}
+
+.UserPerfilWrapper .UserPerfilBody .UserEditionCell{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    object-fit: cover;
+    height: 100%;
+    width: auto;
     border-radius: 3px;
     /* box-shadow: 0px 4px 20px 0px rgba(80, 80, 80, 0.1); */
     padding: 15px 15px;
 }
 
 .UserPerfilWrapper .UserPerfilBody .UserEdition .preview-container{
-    background-image: url("../assets/cellphone.png");
-    background-repeat: no-repeat;
-    width: 70%;
-    height: 84%;
+    width: 50%;
+    height: 50%;
 }
