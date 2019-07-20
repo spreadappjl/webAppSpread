@@ -49,23 +49,22 @@
     background: none;
     height: auto;
     display: flex;
-    padding: none;
+    padding-right: 35px;
     align-items: center;
     object-position: center;
     width: auto;
 }
 
 .Header-search .search-bar{
-    background: #4c5155;
+    background: #323638;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     color: #f1f1f1;
     border-width: 0px;
-    margin-right: 15px;
     border: 0px;
     padding-left: 15px;
     border-color: rgb(76, 81, 85);
-    width: 70%;
+    width: 100%;
     height: 23px;
     border-radius: 35px;
     outline: none;
@@ -73,11 +72,11 @@
 
 .Header-search .search-button{
     background: #4c5155;
-    padding: 0.1px;
+    padding:  0px 16px;
     object-position: center;
     background: none;
     color: #f1f1f1;
-    font-size: 15px;
+    font-size: 14px;
     border-width:0px;
     outline: none;
     height: 5%;
@@ -88,7 +87,7 @@
     height: auto;
     background: #323639;
     display: flex;
-    border-radius: 19px 0px 0px 19px;
+    border-radius: 30px 0px 0px 30px;
     width: auto;
     align-items: center;
 }
@@ -97,13 +96,11 @@
     height: auto;
     width: auto;
     margin: 0px 30px 0px 0px;
-    padding: 0px;
     align-items: flex-start;
     text-align: center;
     cursor: default;
     box-sizing: border-box;
     border-radius:50%;
-    padding: 0px;
     border-width: 0px;
     border-style: none;
     border-image: initial;
@@ -120,8 +117,7 @@
 .Header-menu .Header-notifications{
     height: 10%;
     width: 10%;
-    margin: 0px 16px;
-    padding: 0px;
+    margin: 0px 8px;
     align-items: flex-start;
     text-align: center;
     cursor: default;
@@ -141,7 +137,7 @@
     height: 10%;
     width: 10%;
     background: none;
-    margin-right: 16px;
+    margin-right: 8px;
     padding: 0px;
     align-items: flex-start;
     text-align: center;
