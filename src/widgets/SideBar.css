@@ -1,0 +1,105 @@
+.App .SideBar {
+  background: rgb(50,54,57);
+  width: 18vw;
+  z-index: 0;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  box-shadow: 0px 4px 20px 0px rgba(80, 80, 80, 0.1);
+  float: left;
+  text-transform: uppercase;
+}
+
+.App .SideBar .userInfoSpace {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-group-item .icon { 
+  font-size: 18px;
+  margin: 0px 20px 0px 0px;
+  display: flex;
+  align-items: center;
+  float: left;
+}
+
+.fa-chart-bar{
+  font-size: 18px;
+  margin: 0px 20px 0px 0px;
+  display: flex;
+  align-items: center;
+  float: left;
+}
+
+.fa-book{
+  font-size: 18px;
+  margin: 0px 20px 0px 0px;
+  display: flex;
+  align-items: center;
+  float: left;
+}
+
+.App .SideBar .brandContainer {
+  width: 100%;
+  height: 40px;
+  padding: 0px 0px 10px 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+.App .SideBar .userInfoSpace .userImgProfile {
+  display: flex;
+  justify-content: center;
+}
+
+.App .SideBar .userInfoSpace img {
+  border-radius: 50%;
+  width: 47px;
+  height: 47px;
+  justify-content: center;
+  margin: 0px 0px 15px 0px;
+}
+
+.App .SideBar .userInfoSpace .userName {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+}
+
+.App .SideBar .dividerHorizontal {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0px;
+  background: rgba(218, 218, 218, 0.199);
+}
+
+.App .SideBar .menuList .btn{
+  width: 100%;
+  height: 36px;
+  padding: 7px 0px 8px 20px;
+  font-size: .60em;
+  transition: .05s;
+  font-weight: 500;
+  color: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: default;
+  text-decoration: none;
+  font-family: 'Montserrat', "Helvetica Neue", Arial;
+}
+
+.App  .menuList .btn:hover{
+  background: rgb(76, 81, 85);;
+  color: rgba(56, 102, 255, 0.932);
+}
+
+.App  .menuList .btn:focus{
+  background: rgb(76, 81, 85);
+  color: rgba(56, 102, 255, 0.932);
+}

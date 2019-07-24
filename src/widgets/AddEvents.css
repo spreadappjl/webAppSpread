@@ -1,0 +1,11 @@
+.AddEventsShowPainel{
+    width: 82vw;
+    position: fixed;
+    background: #e9eaef;
+    height: 100vh;
+    top:0px;
+    z-index: 2;
+    left: 18vw;
+    transition: all;
+    transition-duration: 1s;
+}
